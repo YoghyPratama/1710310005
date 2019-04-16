@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Form</title>
+</head>
+<p>Gede Yogi Pratama</p>
+<p>1710310005</p>
+<hr>
+<body>
+	<form name="latiahan_form" method="POST" action="hasil.php">
+		<table width="30%" hight="60%" align="left">
+			<tr>
+				<td>Nama</td>
+				<td><input type="text" size="20" name="nama"> </td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+
+			<tr>
+				<td>E-mail</td>
+				<td><input type="text" size="20" name="email"></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Tempat lahir</td>
+				<td><input type="text" size="20" name="tempat"></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Semester</td>
+				<td>
+					<select name="semester">
+						<option value="">pilih</option>
+						<option value="I">I</option>
+						<option value="II">II</option>
+						<option value="III">III</option>
+						<option value="IV">IV</option> 
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Kelamin</td>
+				<td>	
+					<input type="radio" name="jeniskelamin" value="l" checked="">Laki-Laki<br>
+					<input type="radio" name="jeniskelamin" value="p">Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Kemampuan</td>
+				<td>
+					<input type="checkbox" name="ckemampuan" value="Java" checked="">Java<br>
+					<input type="checkbox" name="ckemampuan" value="SQL" >SQL
+				</td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td><br></td>
+			</tr>
+
+			<tr>
+
+				<td colspan="2"><textarea name="txtalamat" cols="50" rows="4"></textarea></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" name="btnsubmit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
