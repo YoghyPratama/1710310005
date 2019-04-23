@@ -1,0 +1,14 @@
+*{color: red;
+font-family: monospace;}
+h2{font-size: 20px;
+	color: aqua;
+	font-family: arial, sans-serif;
+	border: 5px solid red;
+}
+.biru{
+	color: #f55;
+	font-family: georgia, serif;
+}
+.kuning{
+	color: yellow;
+}
